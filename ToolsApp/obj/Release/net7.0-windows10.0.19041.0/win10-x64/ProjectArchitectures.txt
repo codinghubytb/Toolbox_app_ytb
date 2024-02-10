@@ -1,0 +1,1 @@
+C:\GIT\Mes Projets\ToolsApp\ToolsApp\ToolsApp.csproj;x64

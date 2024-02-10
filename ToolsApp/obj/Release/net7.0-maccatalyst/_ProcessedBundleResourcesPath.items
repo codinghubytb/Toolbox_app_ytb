@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\copy.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\copy@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\copy@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\delete.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\delete@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\delete@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_calculator.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_calculator@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_calculator@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_compass.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_compass@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_compass@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_convert.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_convert@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_convert@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_speech_to_text.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_speech_to_text@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_speech_to_text@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_text_to_speech.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_text_to_speech@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\icon_text_to_speech@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenpause.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenpause@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenpause@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenplay.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenplay@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\listenplay@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\micro.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\micro@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\micro@3x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\compass.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\share.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\share@2x.png" />
+    <BundleResource Include="C:\GIT\Mes Projets\ToolsApp\ToolsApp\obj\Release\net7.0-maccatalyst\resizetizer\r\share@3x.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\MaterialIconsOutlined-Regular.otf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\NotoSerif-Bold.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Poppins-Bold.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Poppins-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Poppins-SemiBold.ttf" />
+  </ItemGroup>
+</Project>

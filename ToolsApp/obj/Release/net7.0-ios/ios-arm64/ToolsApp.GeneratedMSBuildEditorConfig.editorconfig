@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ToolsApp
+build_property.ProjectDir = C:\GIT\Mes Projets\ToolsApp\ToolsApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/CalculatorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.CalculatorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CalculatorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CalculatorPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/CompassPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.CompassPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompassPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompassPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/ConverterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.ConverterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConverterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConverterPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/SectionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.SectionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SectionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SectionPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/SpeechToTextPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.SpeechToTextPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SpeechToTextPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SpeechToTextPage.xaml
+
+[C:/GIT/Mes Projets/ToolsApp/ToolsApp/Views/TextToSpeechPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ToolsApp.Views.TextToSpeechPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TextToSpeechPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TextToSpeechPage.xaml

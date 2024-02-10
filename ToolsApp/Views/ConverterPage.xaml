@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToolsApp.Views.ConverterPage"
+             xmlns:models="clr-namespace:ToolsApp.Models"
+             xmlns:viewModel="clr-namespace:ToolsApp.ViewModels"
+             x:DataType="viewModel:ConverterViewModel"
+             Title="Converter">
+
+    <StackLayout >
+
+        <StackLayout VerticalOptions="FillAndExpand"
+                     Margin="20">
+
+            <Button Text="{Binding TextConverter}" HorizontalOptions="FillAndExpand" Command="{Binding OpenConversionCommand}"/>
+
+            <Frame VerticalOptions="CenterAndExpand">
+                <StackLayout
+                    Orientation="Horizontal">
+                    <Entry 
+                        IsReadOnly="True"
+                        MaxLength="10"
+                        Placeholder="0.0" 
+                        FontSize="Large"
+                        TextColor="Black"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Enter}"/>
+                    <Button 
+                        Text="{Binding EnterUnit}" 
+                        Command="{Binding BtnEnterUnitClick}"
+                        CommandParameter="{Binding EnterParameter}"
+                        WidthRequest="100"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame VerticalOptions="CenterAndExpand">
+                <StackLayout 
+                    Orientation="Horizontal">
+                    <Entry 
+                        IsReadOnly="True"
+                        MaxLength="10"
+                        TextColor="Black"
+                        Placeholder="0.0"
+                        FontSize="Large" 
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Result}"/>
+                    <Button 
+                        Text="{Binding ResultUnit}" 
+                        Command="{Binding BtnResultUnitClick}"
+                        CommandParameter="{Binding ResultParameter}"
+                        WidthRequest="100"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+
+        <Grid
+            VerticalOptions="EndAndExpand"
+            RowDefinitions="Auto,Auto,Auto,Auto"
+            ColumnDefinitions="*,*,*">
+
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="0" Grid.Row="0" Grid.Column="0" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="0"/>
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="1" Grid.Row="0" Grid.Column="1" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="1" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="2" Grid.Row="0" Grid.Column="2" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="2" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="3" Grid.Row="1" Grid.Column="0" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="3" />
+
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="4" Grid.Row="1" Grid.Column="1" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="4" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="5" Grid.Row="1" Grid.Column="2" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="5" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="6" Grid.Row="2" Grid.Column="0" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="6" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="7" Grid.Row="2" Grid.Column="1" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="7" />
+
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30" Text="8" Grid.Row="2" Grid.Column="2" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="8" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="9" Grid.Row="4" Grid.Column="0" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="9" />
+            <Button BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30"  Text="," Grid.Row="4" Grid.Column="1" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="," />
+            <Button x:Name="arrowbtn" BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" TextColor="{AppThemeBinding Light=Black, Dark=White}" FontSize="30" FontFamily="Material" Grid.Row="4" Grid.Column="2" CornerRadius="0" Command="{Binding BtnNumberClick}" CommandParameter="retour" />
+        </Grid> 
+        
+    </StackLayout>
+
+    
+    
+</ContentPage>
